@@ -121,6 +121,16 @@ main {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* App Icons */
+.app-icon {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 22px;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .app-icon-placeholder {
     width: 100px;
     height: 100px;
@@ -366,6 +376,11 @@ footer a:hover {
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.5em;
+    }
+
+    .app-icon {
+        width: 100px;
+        height: 100px;
     }
 
     .app-icon-placeholder {
